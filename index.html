@@ -6,14 +6,14 @@
 	<meta name="viewport"
 		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!-- <link rel="icon" type="image/png" sizes="16x16" href="./images/icons/favicon-16x16.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./images/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="48x48" href="./images/icons/favicon-48x48.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="./images/icons/apple-touch-icon.png"> -->
-	<link rel="icon" type="image/svg+xml" sizes="16x16" href="public/images/svg/icons/favicon.svg">
-	<link rel="icon" type="image/svg+xml" sizes="32x32" href="public/images/svg/icons/favicon.svg">
-	<link rel="icon" type="image/svg+xml" sizes="48x48" href="public/images/svg/icons/favicon.svg">
-	<link rel="apple-touch-icon" sizes="180x180" href="public/images/svg/icons/favicon.svg">
+	<!-- <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="48x48" href="/images/icons/favicon-48x48.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png"> -->
+	<link rel="icon" type="image/svg+xml" sizes="16x16" href="/images/svg/icons/favicon.svg">
+	<link rel="icon" type="image/svg+xml" sizes="32x32" href="/images/svg/icons/favicon.svg">
+	<link rel="icon" type="image/svg+xml" sizes="48x48" href="/images/svg/icons/favicon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/svg/icons/favicon.svg">
 	<!-- <meta name="description"
 		content="Add your page description ..."> -->
 	<title>test-libs-vite</title>
@@ -21,9 +21,26 @@
 
 <body>
 
-	<img class="test-image" src="/public/images/svg/icons/favicon.svg" width="500" height="500" alt="" loading="lazy">
-
 	<header class="header">
+		<div class="swiper">
+			<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide">Slide 1</div>
+				<div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div>
+				...
+			</div>
+			<!-- If we need pagination -->
+			<div class="swiper-pagination"></div>
+
+			<!-- If we need navigation buttons -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+
+			<!-- If we need scrollbar -->
+			<div class="swiper-scrollbar"></div>
+		</div>
 	</header>
 
 	<main class="content">

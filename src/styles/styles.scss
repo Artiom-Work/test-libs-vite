@@ -14,10 +14,13 @@
 @import "./blocks/_soc1als.scss";
 @import "./blocks/_footer.scss";
 
-.test-image {
-  border: 5px solid red;
-
-  @include hover {
-    scale: 2;
+.swiper {
+  width: 600px;
+  height: 300px;
+  outline: 1px solid red;
+  &-slide {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
 }
